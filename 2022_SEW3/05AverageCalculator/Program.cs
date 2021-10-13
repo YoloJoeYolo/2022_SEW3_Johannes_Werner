@@ -6,7 +6,7 @@ namespace _05AverageCalculator
     {
         static void Main(string[] args)
         {
-            
+            Console.WriteLine("Mittelwert: " +AverageCalculator.AveraeOfInput());
         }
     }
 }
