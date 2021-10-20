@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04StaticExample", "04Static
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05AverageCalculator", "05AverageCalculator\05AverageCalculator.csproj", "{EF47E6BD-66A9-4351-B7AE-F0730864BB0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06Dictionaries", "06Dictionaries\06Dictionaries.csproj", "{0A4BD2D5-8FA8-48EC-9599-499BD1E256E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06Dictionaries", "06Dictionaries\06Dictionaries.csproj", "{0A4BD2D5-8FA8-48EC-9599-499BD1E256E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErsterTest", "ErsterTest\ErsterTest.csproj", "{6FD92912-3344-4F48-8A28-1404B5FE2259}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{0A4BD2D5-8FA8-48EC-9599-499BD1E256E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A4BD2D5-8FA8-48EC-9599-499BD1E256E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A4BD2D5-8FA8-48EC-9599-499BD1E256E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FD92912-3344-4F48-8A28-1404B5FE2259}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FD92912-3344-4F48-8A28-1404B5FE2259}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FD92912-3344-4F48-8A28-1404B5FE2259}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FD92912-3344-4F48-8A28-1404B5FE2259}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -43,6 +43,29 @@ namespace _06Dictionaries
                 }
             }
 
-    }
+            // geschachtelte Dictionary --> Key: string, Value: List<string>
+            Dictionary<string, List<string>> telefonbuch = new Dictionary<string, List<string>>();
+
+            // neuen Eintrag hinzufügen
+            telefonbuch["Thomas Riegler"] = new List<string>();     // neue Liste für den Wert erstellen
+            telefonbuch["Thomas Riegler"].Add("0664/...");
+            telefonbuch["Thomas Riegler"].Add("0680/...");
+            List<string> myNumbers = telefonbuch["Thomas Riegler"]; // Liste mit meinen Telefonnummern
+
+            // Eintrag im Telefonbuch suchen
+            if (telefonbuch.ContainsKey("Tobias Nagel"))
+            {
+                List<string> number = telefonbuch["Tobias Nagel"];
+            }
+
+            // alle Nummern eines Eintrages ausgeben
+            if(telefonbuch.ContainsKey("Thomas Riegler"))
+            {
+                foreach(string number in telefonbuch["Thomas Riegler"])
+                {
+                    Console.WriteLine(number);
+                }
+            }
+        }
     }
 }
