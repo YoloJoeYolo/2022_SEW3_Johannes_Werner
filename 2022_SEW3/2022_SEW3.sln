@@ -15,7 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05AverageCalculator", "05Av
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06Dictionaries", "06Dictionaries\06Dictionaries.csproj", "{0A4BD2D5-8FA8-48EC-9599-499BD1E256E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErsterTest", "ErsterTest\ErsterTest.csproj", "{6FD92912-3344-4F48-8A28-1404B5FE2259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErsterTest", "ErsterTest\ErsterTest.csproj", "{6FD92912-3344-4F48-8A28-1404B5FE2259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07LetterAnalysis", "07LetterAnalysis\07LetterAnalysis.csproj", "{42F33294-BE69-43AD-B38D-E4562A62D5A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Caesar", "08Caesar\08Caesar.csproj", "{829A08C3-553C-4837-BDBD-5D4B675942F0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{6FD92912-3344-4F48-8A28-1404B5FE2259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6FD92912-3344-4F48-8A28-1404B5FE2259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6FD92912-3344-4F48-8A28-1404B5FE2259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42F33294-BE69-43AD-B38D-E4562A62D5A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42F33294-BE69-43AD-B38D-E4562A62D5A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42F33294-BE69-43AD-B38D-E4562A62D5A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42F33294-BE69-43AD-B38D-E4562A62D5A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{829A08C3-553C-4837-BDBD-5D4B675942F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{829A08C3-553C-4837-BDBD-5D4B675942F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{829A08C3-553C-4837-BDBD-5D4B675942F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{829A08C3-553C-4837-BDBD-5D4B675942F0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
