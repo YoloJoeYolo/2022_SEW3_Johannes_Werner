@@ -17,9 +17,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "06Dictionaries", "06Diction
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ErsterTest", "ErsterTest\ErsterTest.csproj", "{6FD92912-3344-4F48-8A28-1404B5FE2259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "07LetterAnalysis", "07LetterAnalysis\07LetterAnalysis.csproj", "{42F33294-BE69-43AD-B38D-E4562A62D5A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "07LetterAnalysis", "07LetterAnalysis\07LetterAnalysis.csproj", "{42F33294-BE69-43AD-B38D-E4562A62D5A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "08Caesar", "08Caesar\08Caesar.csproj", "{829A08C3-553C-4837-BDBD-5D4B675942F0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08Caesar", "08Caesar\08Caesar.csproj", "{829A08C3-553C-4837-BDBD-5D4B675942F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "09InversionChiffre", "09InversionChiffre\09InversionChiffre.csproj", "{266BD8F7-CC62-4B14-9D7A-4B3899B0DC6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10StringFormatting", "10StringFormatting\10StringFormatting.csproj", "{D624A854-02A4-42E4-8AD7-492F218A9C89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "11Pythagoras", "11Pythagoras\11Pythagoras.csproj", "{CBDA44AB-12EA-4A9A-A60E-5110065EE040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +69,18 @@ Global
 		{829A08C3-553C-4837-BDBD-5D4B675942F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{829A08C3-553C-4837-BDBD-5D4B675942F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{829A08C3-553C-4837-BDBD-5D4B675942F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{266BD8F7-CC62-4B14-9D7A-4B3899B0DC6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{266BD8F7-CC62-4B14-9D7A-4B3899B0DC6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{266BD8F7-CC62-4B14-9D7A-4B3899B0DC6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{266BD8F7-CC62-4B14-9D7A-4B3899B0DC6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D624A854-02A4-42E4-8AD7-492F218A9C89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D624A854-02A4-42E4-8AD7-492F218A9C89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D624A854-02A4-42E4-8AD7-492F218A9C89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D624A854-02A4-42E4-8AD7-492F218A9C89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBDA44AB-12EA-4A9A-A60E-5110065EE040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBDA44AB-12EA-4A9A-A60E-5110065EE040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBDA44AB-12EA-4A9A-A60E-5110065EE040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBDA44AB-12EA-4A9A-A60E-5110065EE040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
