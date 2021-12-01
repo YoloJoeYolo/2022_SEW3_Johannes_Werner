@@ -31,6 +31,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "12PythagorasKonsole", "12Py
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13HelloCWorld", "13HelloCWorld\13HelloCWorld.vcxproj", "{F6FCFA09-D963-40BF-BEBA-64FF796759C9}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "14IOinC", "14IOinC\14IOinC.vcxproj", "{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,16 @@ Global
 		{F6FCFA09-D963-40BF-BEBA-64FF796759C9}.Release|x64.Build.0 = Release|x64
 		{F6FCFA09-D963-40BF-BEBA-64FF796759C9}.Release|x86.ActiveCfg = Release|Win32
 		{F6FCFA09-D963-40BF-BEBA-64FF796759C9}.Release|x86.Build.0 = Release|Win32
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Debug|x64.ActiveCfg = Debug|x64
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Debug|x64.Build.0 = Debug|x64
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Debug|x86.ActiveCfg = Debug|Win32
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Debug|x86.Build.0 = Debug|Win32
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Release|Any CPU.ActiveCfg = Release|Win32
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Release|x64.ActiveCfg = Release|x64
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Release|x64.Build.0 = Release|x64
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Release|x86.ActiveCfg = Release|Win32
+		{0056F1ED-06FA-4598-9FCB-A2AFDBDECD92}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
