@@ -1,0 +1,4 @@
+Haus|house
+Weihnachten|christmas
+Beamer|BMW
+Hund|dog
