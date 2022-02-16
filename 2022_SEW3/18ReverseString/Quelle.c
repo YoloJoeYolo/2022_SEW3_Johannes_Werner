@@ -4,6 +4,27 @@
 
 #define _CRT_SECURE_NO_WARNINGS
 #include<stdio.h> 
+#include<string.h>
+
+int stringLength(char text[]) {
+	int length = 0;
+	// wir suchen den Index von '\0'
+	while (text[length] != '\0')
+	{
+		length++;
+	}
+	return length - 2;	// -1 weill, länge != index und \n auch wegschneiden 
+}
+
+int stringLength2(char* text) {
+	//char temp[] = text;
+	int length = 0;
+	while (text[length] != '\0')
+	{
+		length++;
+	}
+	return length - 2;
+}
 
 int main() {
 	// Ein Array von char mit einer Länge von 201 Zeichen deklarieren
@@ -12,24 +33,18 @@ int main() {
 	char input[201];
 	printf("Geben Sie eine Text ein: ");
 	fgets(&input, 200, stdin);
-	printf("Die Laenge ist %i", stringLength(input));
+	int length = stringLength(input); 
+	// int length = strlen(input) // aus string.h
 
-	return 0;
-}
-
-int stringLength(char text[]) {
-	int length = 0;
-	// wir suchen den Index von '\0'
-	for (int i = 0; i < 201; i++)
-	{
-		if (text[i] != '\0')
-		{
-			length++;
-		}
-		else
-		{
-			return length;
-		}
-	}
+	// hier den Text "umdrehen"
 	
+	for (int i = 0; i < length/2; i++)
+	{
+		char temp = input[i];
+		input[i] = input[length - i];
+		input[length - i] = temp;
+	}
+
+	printf("%s", input);
+	return 0;
 }
