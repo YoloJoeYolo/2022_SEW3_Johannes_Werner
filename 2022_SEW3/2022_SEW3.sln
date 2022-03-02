@@ -63,6 +63,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "18ReverseString", "18Revers
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "19Pointer", "19Pointer\19Pointer.vcxproj", "{9068BDBF-B9A7-45A0-97CB-18CC279405DE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "20ZeigerArrays", "20ZeigerArrays\20ZeigerArrays.vcxproj", "{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -419,6 +421,16 @@ Global
 		{9068BDBF-B9A7-45A0-97CB-18CC279405DE}.Release|x64.Build.0 = Release|x64
 		{9068BDBF-B9A7-45A0-97CB-18CC279405DE}.Release|x86.ActiveCfg = Release|Win32
 		{9068BDBF-B9A7-45A0-97CB-18CC279405DE}.Release|x86.Build.0 = Release|Win32
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Debug|x64.ActiveCfg = Debug|x64
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Debug|x64.Build.0 = Debug|x64
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Debug|x86.ActiveCfg = Debug|Win32
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Debug|x86.Build.0 = Debug|Win32
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Release|Any CPU.ActiveCfg = Release|Win32
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Release|x64.ActiveCfg = Release|x64
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Release|x64.Build.0 = Release|x64
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Release|x86.ActiveCfg = Release|Win32
+		{2AC5ADBD-FB3E-4A89-BEB3-1AA33E773099}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
