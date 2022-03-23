@@ -8,16 +8,32 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using _22SerialArduino;
+using System.IO.Ports;
 
 namespace _24SerialArduinoGUI
 {
     public partial class Form1 : Form
     {
-        ArduinoSerialPortCommunication arduino1 = new ArduinoSerialPortCommunication("COM5");
+        ArduinoSerialPortCommunication arduino1;
 
         public Form1()
         {
             InitializeComponent();
+            arduino1 = new ArduinoSerialPortCommunication("COM5");
+            arduino1.addSerialDataReceiveEventHandler(new SerialDataReceivedEventHandler(ReceivedData));
+        }
+
+        private void ReceivedData(object sender, SerialDataReceivedEventArgs e)
+        {
+            // sender ist immer das Objekt, welches das Event feuert
+            SerialPort serialPort = (SerialPort)sender; // expliziter Cast, weil dynamischer Datentyp ist "SerialPort"
+            string message = serialPort.ReadExisting();
+
+            // Action delegate als Lambda Methode
+            this.Invoke(new Action(() =>
+            {
+                this.txt_Message.AppendText(message);
+            }));
         }
 
         private void btn_LED_ON_Click(object sender, EventArgs e)

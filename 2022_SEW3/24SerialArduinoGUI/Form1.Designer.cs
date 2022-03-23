@@ -31,6 +31,7 @@ namespace _24SerialArduinoGUI
         {
             this.btn_LED_ON = new System.Windows.Forms.Button();
             this.btn_LED_OFF = new System.Windows.Forms.Button();
+            this.txt_Message = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // btn_LED_ON
@@ -53,11 +54,23 @@ namespace _24SerialArduinoGUI
             this.btn_LED_OFF.UseVisualStyleBackColor = true;
             this.btn_LED_OFF.Click += new System.EventHandler(this.btn_LED_OFF_Click);
             // 
+            // txt_Message
+            // 
+            this.txt_Message.BackColor = System.Drawing.SystemColors.Window;
+            this.txt_Message.Location = new System.Drawing.Point(13, 144);
+            this.txt_Message.Multiline = true;
+            this.txt_Message.Name = "txt_Message";
+            this.txt_Message.ReadOnly = true;
+            this.txt_Message.Size = new System.Drawing.Size(305, 105);
+            this.txt_Message.TabIndex = 2;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(334, 151);
+            this.BackColor = System.Drawing.Color.LightPink;
+            this.ClientSize = new System.Drawing.Size(334, 261);
+            this.Controls.Add(this.txt_Message);
             this.Controls.Add(this.btn_LED_OFF);
             this.Controls.Add(this.btn_LED_ON);
             this.MaximizeBox = false;
@@ -65,6 +78,7 @@ namespace _24SerialArduinoGUI
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -72,6 +86,7 @@ namespace _24SerialArduinoGUI
 
         private System.Windows.Forms.Button btn_LED_ON;
         private System.Windows.Forms.Button btn_LED_OFF;
+        private System.Windows.Forms.TextBox txt_Message;
     }
 }
 
