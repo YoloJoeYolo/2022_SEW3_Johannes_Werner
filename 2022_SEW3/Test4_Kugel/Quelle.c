@@ -4,7 +4,7 @@
 #define pi 3.14159
 void kugel(float r, float* volumen, float* oberflaeche) {
 	*oberflaeche = 4 * r * r * pi;
-	*volumen = (4 / 3) * pi * r * r * r;
+	*volumen = 1.333333 * pi * r * r * r;
 }
 
 void main() {
