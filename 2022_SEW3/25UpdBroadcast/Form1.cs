@@ -36,7 +36,16 @@ namespace _25UpdBroadcast
 
         private void btn_Send_Click(object sender, EventArgs e)
         {
-
+            try
+            {
+                byte[] message = Encoding.UTF8.GetBytes(this.txt_Message.Text);
+                IPEndPoint broadCastIP = new IPEndPoint(IPAddress.Broadcast, this.port);
+                udpClient.Send(message, message.Length, broadCastIP);
+            }
+            catch (SocketException ex)
+            {
+                this.txt_Log.Text += ex.Message + Environment.NewLine; 
+            }
         }
     }
 }

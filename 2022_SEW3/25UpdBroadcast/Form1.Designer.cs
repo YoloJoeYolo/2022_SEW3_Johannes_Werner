@@ -47,7 +47,7 @@ namespace _25UpdBroadcast
             this.btn_Send.Name = "btn_Send";
             this.btn_Send.Size = new System.Drawing.Size(139, 23);
             this.btn_Send.TabIndex = 1;
-            this.btn_Send.Text = "button1";
+            this.btn_Send.Text = "Broadcast";
             this.btn_Send.UseVisualStyleBackColor = true;
             this.btn_Send.Click += new System.EventHandler(this.btn_Send_Click);
             // 
