@@ -39,11 +39,25 @@ namespace _26TcpLED
 
                     this.writer = new StreamWriter(this.tcpClient.GetStream()); // wir verbinden den StreamWriter mit den TCP Client
                     this.btn_Connect.Enabled = false;
+                    receiveAsynce();
                 }
                 catch (FormatException ex)
                 {
                     MessageBox.Show("Bitte eine gültige IP angeben!" + ex.StackTrace);
                 }
+            }
+        }
+
+        private async void receiveAsynce()
+        {
+            StreamReader reader = new StreamReader(this.tcpClient.GetStream());
+            while (true)
+            {
+                string incoming = await reader.ReadLineAsync();
+                this.txt_Log.Invoke(new Action(() =>
+                {
+                    this.txt_Log.AppendText(incoming + Environment.NewLine);
+                }));
             }
         }
 
@@ -62,6 +76,15 @@ namespace _26TcpLED
 
         private void btn_LED_Off_Click(object sender, EventArgs e)
         {
+            try
+            {
+                this.writer.Write("off\n");
+                this.writer.Flush();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Uuuups, irgend etwas ist schief gegangen." + ex.StackTrace);
+            }
         }
     }
 }
